@@ -18,6 +18,6 @@ jobs:
         with:
           token: ${{ secrets.RENOVATE_TOKEN }}
           configurationFile: renovate.json
-          args: --repositories Niakrist/test-ui-kit
         env:
           LOG_LEVEL: debug
+          RENOVATE_REPOSITORIES: Niakrist/test-ui-kit

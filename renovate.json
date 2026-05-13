@@ -1,6 +1,5 @@
 {
   "extends": ["config:recommended"],
-  "repositories": ["Niakrist/test-ui-kit"],
   "packageRules": [
     {
       "matchPackageNames": ["@niakrist/ui-kit"],
